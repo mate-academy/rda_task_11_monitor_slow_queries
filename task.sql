@@ -2,8 +2,7 @@ create database ShopDB;
 
 use ShopDB; 
 
--- Create tables 
-
+-- Create table
 CREATE TABLE Products2 (
     ID INT AUTO_INCREMENT,
     Name VARCHAR(50),
