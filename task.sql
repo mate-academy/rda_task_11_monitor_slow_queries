@@ -2,14 +2,18 @@ create database ShopDB;
 
 use ShopDB; 
 
--- Create table
+-- Create tables 
+
+CREATE TABLE Products1 (
+) ENGINE=InnoDB;
+
 CREATE TABLE Products2 (
     ID INT AUTO_INCREMENT,
     Name VARCHAR(50),
     PRIMARY KEY (ID)
 ) ENGINE=MyISAM;
 
--- Removed Products1 creation as mentioned in step 6 of Task
+-- Create test data in Products1 table
 
 -- Create test data in Products2 table
 INSERT INTO Products2 (Name)
