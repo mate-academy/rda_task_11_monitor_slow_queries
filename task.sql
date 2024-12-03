@@ -9,7 +9,7 @@ CREATE TABLE Products2 (
     PRIMARY KEY (ID)
 ) ENGINE=MyISAM;
 
---Removed Products1 creation as mentioned in step 6 of Task
+-- Removed Products1 creation as mentioned in step 6 of Task
 
 -- Create test data in Products2 table
 INSERT INTO Products2 (Name)
