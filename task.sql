@@ -1,12 +1,12 @@
 CREATE DATABASE IF NOT EXISTS ShopDB;
 USE ShopDB;
 
-CREATE TABLE Products1 (
+CREATE TABLE Products2 (
     ID INT AUTO_INCREMENT PRIMARY KEY,
     Name VARCHAR(100)
-) ENGINE=InnoDB;
+) ENGINE=MyISAM;
 
-INSERT INTO Products1 (Name)
+INSERT INTO Products2 (Name)
 VALUES
   ("AwersomeProduct1"),
   ("AwersomeProduct2"),
