@@ -1,0 +1,29 @@
+# User@Host: root[root] @ localhost []  Id:     8
+# Query_time: 0.000354  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1757960810;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2025-09-15T18:26:50.866402Z
+# User@Host: root[root] @ localhost []  Id:     8
+# Query_time: 0.001216  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1757960810;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2025-09-15T18:27:03.042881Z
+# User@Host: root[root] @ localhost []  Id:     8
+# Query_time: 0.008651  Lock_time: 0.000006 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1757960823;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2025-09-15T18:27:04.863861Z
+# User@Host: root[root] @ localhost []  Id:     8
+# Query_time: 0.001740  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1757960824;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2025-09-15T18:27:06.190115Z
+# User@Host: root[root] @ localhost []  Id:     8
+# Query_time: 0.000495  Lock_time: 0.000005 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1757960826;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2025-09-15T18:27:10.192075Z
+# User@Host: root[root] @ localhost []  Id:     8
+# Query_time: 0.000006  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 60
+SET timestamp=1757960830;
+# administrator command: Quit;
