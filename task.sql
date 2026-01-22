@@ -10,6 +10,8 @@ CREATE TABLE Products1 (
     PRIMARY KEY (ID)
 ) ENGINE=InnoDB;
 
+-- Slower table after testing (MyISAM) - removed
+
 -- Create test data in Products1 table 
 INSERT INTO Products1 (Name)
 	VALUES ('AwersomeProduct1'); 
