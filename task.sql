@@ -14,7 +14,7 @@ CREATE TABLE Products2 (
     ID INT AUTO_INCREMENT,
     Name VARCHAR(50),
     PRIMARY KEY (ID)
-) ENGINE=MyISAM;
+) ENGINE=InnoDB;
 
 -- Create test data in Products1 table 
 INSERT INTO Products1 (Name)
