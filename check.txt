@@ -1,0 +1,107 @@
+Checked log file i found that Products2 is slower then Products1.
+
+# Time: 2026-06-05T07:19:37.709459Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.001128  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780643977;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-06-05T07:19:46.228712Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000374  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780643986;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2026-06-05T07:19:47.931470Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000289  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780643987;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-06-05T07:19:49.009818Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000284  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780643989;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2026-06-05T07:19:50.055301Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000563  Lock_time: 0.000005 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780643990;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-06-05T07:19:51.136322Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000349  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780643991;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2026-06-05T07:19:52.136997Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000312  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780643992;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-06-05T07:19:55.841056Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000270  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780643995;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2026-06-05T07:19:56.895883Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000429  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780643996;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-06-05T07:19:58.857125Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000344  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780643998;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2026-06-05T07:19:59.654301Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000302  Lock_time: 0.000007 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780643999;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-06-05T07:20:01.277024Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000298  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780644001;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2026-06-05T07:20:01.990023Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000292  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780644001;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-06-05T07:20:03.300743Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000226  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780644003;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2026-06-05T07:20:04.116158Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000301  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780644004;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-06-05T07:20:05.233985Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000456  Lock_time: 0.000005 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780644005;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2026-06-05T07:20:05.945085Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000262  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780644005;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-06-05T07:20:06.785335Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000348  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780644006;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2026-06-05T07:20:07.821294Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000247  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780644007;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-06-05T07:20:08.672458Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000237  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780644008;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2026-06-05T07:20:09.347281Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000250  Lock_time: 0.000005 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1780644009;
+select * from Products2 where Name = "AwersomeProduct42";
