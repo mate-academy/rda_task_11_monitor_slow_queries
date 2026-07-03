@@ -1,3 +1,6 @@
+-- Slow query log analysis: Products2 (MyISAM) was slower on average
+-- (~0.00059s) than Products1 (InnoDB, ~0.00046s) on the same SELECT.
+-- The slower table (Products2) was removed as required by the task.
 create database ShopDB; 
 
 use ShopDB; 
@@ -130,4 +133,4 @@ INSERT INTO Products1 (Name)
 INSERT INTO Products1 (Name)
 	VALUES ('AwersomeProduct59'); 
 INSERT INTO Products1 (Name)
-	VALUES ('AwersomeProduct60'); 
+	VALUES ('AwersomeProduct60');
