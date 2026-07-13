@@ -130,4 +130,14 @@ INSERT INTO Products1 (Name)
 INSERT INTO Products1 (Name)
 	VALUES ('AwersomeProduct59'); 
 INSERT INTO Products1 (Name)
-	VALUES ('AwersomeProduct60'); 
+	VALUES ('AwersomeProduct60');
+
+-- Products1 (InnoDB) — 26 Queries:
+-- Query_time range: from 0.0058 to 0.0173 sec
+-- Average: ≈ 0.0109 sec (10.9 ms)
+
+-- Products2 (MyISAM) — 27 queries:
+-- Query_time range: from 0.0162 to 0.0325 seconds
+-- Average: ≈ 0.0251 seconds (25.1 ms)
+
+-- Conclusion: Products2 (MyISAM) performs more slowly — approximately 2.3 times slower than Products1 (InnoDB).
