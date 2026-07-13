@@ -1,7 +1,8 @@
 create database ShopDB;
 
 use ShopDB; 
-
+-- First, two tables were created, populated with data, and a series of queries were run on each of them.
+-- It was found which table was slower. The code for creating the slower table has been deliberately commented out.
 -- Create tables 
 
 CREATE TABLE Products1 (
@@ -9,6 +10,10 @@ CREATE TABLE Products1 (
     Name VARCHAR(50),
     PRIMARY KEY (ID)
 ) ENGINE=InnoDB;
+
+
+-- The table was created and populated over several days.
+-- It was designed for slow queries, but has now been deliberately commented out after being identified as the slowest.
 
 /*
 CREATE TABLE Products2 (
