@@ -28,7 +28,7 @@ jobs:
     
     - name: Run the tests
       run: |
-        match=$(cat task.sql | grep -P  '^CREATE TABLE Products1' || true)
+        match=$(cat task.sql | grep -P  '^CREATE TABLE Products2' || true)
         if [ -z "$match" ]; then 
             echo "Missing correct table - Error"
             exit 1
@@ -36,7 +36,7 @@ jobs:
             echo "Correct table is in place - OK"
         fi
 
-        match=$(cat task.sql | grep -P  '^CREATE TABLE Products2' || true)
+        match=$(cat task.sql | grep -P  '^CREATE TABLE Products1' || true)
         if [ -z "$match" ]; then 
             echo "Wrong table is missing - OK"
         else
