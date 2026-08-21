@@ -39,3 +39,45 @@ If you run queries from MySQL Workbench, there will be a lot of additional queri
 5. Analyse the slow query log and identify the query which works slower (on average) than the other one. 
 
 6. Edit the `task.sql` file: remove the code for the table creation and data creation, which is used by the "slow" query. Submit your solution for a review.
+
+---
+
+## Analysis & Solution
+
+### Setup
+- MySQL 8.3 container (`mysql`), slow query log enabled via `/etc/mysql/conf.d/slow.cnf`:
+  `slow_query_log=1`, `long_query_time=0`
+- Both tables created and populated (60 rows each) from `task.sql`
+
+### Query Performance (10 runs each)
+
+| Table | Engine | Avg Query Time | Total Time |
+|-------|--------|---------------|------------|
+| Products1 | InnoDB | 0.000130 s | 0.001300 s |
+| Products2 | MyISAM | 0.000149 s | 0.001490 s |
+
+**Ratio (InnoDB / MyISAM): 0.873** — InnoDB is ~13% faster; MyISAM is the slower query.
+
+### Slow Log Snippet
+
+**Products1 (InnoDB) — sampled entries:**
+```
+# Query_time: 0.000134  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 60
+# Query_time: 0.000135  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 60
+# Query_time: 0.000134  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 60
+# Query_time: 0.000138  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 60
+# Query_time: 0.000146  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 60
+```
+
+**Products2 (MyISAM) — sampled entries:**
+```
+# Query_time: 0.000155  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 60
+# Query_time: 0.000155  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 60
+# Query_time: 0.000160  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 60
+# Query_time: 0.000173  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 60
+# Query_time: 0.000155  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 60
+```
+
+### Conclusion
+
+**Products2 (MyISAM) is the slower query.** On a small full-table scan, MyISAM's packed row format and lack of an in-engine buffer pool result in ~15% higher latency compared to InnoDB's buffered reads. The `CREATE TABLE Products2` block and its 60 `INSERT` statements have been removed from `task.sql`.
