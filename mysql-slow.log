@@ -1,0 +1,300 @@
+# Time: 2026-09-07T18:51:18.563334Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000324  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807078;
+SELECT DATABASE();
+# Time: 2026-09-07T18:51:18.563631Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000083  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807078;
+# administrator command: Init DB;
+# Time: 2026-09-07T18:51:18.565432Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000504  Lock_time: 0.000007 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1788807078;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2026-09-07T18:51:19.889028Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000363  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807079;
+SELECT DATABASE();
+# Time: 2026-09-07T18:51:19.890068Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000904  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807079;
+# administrator command: Init DB;
+# Time: 2026-09-07T18:51:19.890619Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000497  Lock_time: 0.000009 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1788807079;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2026-09-07T18:51:21.267497Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000281  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807081;
+SELECT DATABASE();
+# Time: 2026-09-07T18:51:21.267804Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000091  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807081;
+# administrator command: Init DB;
+# Time: 2026-09-07T18:51:21.268349Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000449  Lock_time: 0.000008 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1788807081;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2026-09-07T18:51:22.638106Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000275  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807082;
+SELECT DATABASE();
+# Time: 2026-09-07T18:51:22.638424Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000082  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807082;
+# administrator command: Init DB;
+# Time: 2026-09-07T18:51:22.638926Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000410  Lock_time: 0.000008 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1788807082;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2026-09-07T18:51:23.858701Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000313  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807083;
+SELECT DATABASE();
+# Time: 2026-09-07T18:51:23.859034Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000157  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807083;
+# administrator command: Init DB;
+# Time: 2026-09-07T18:51:23.859504Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000440  Lock_time: 0.000007 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1788807083;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2026-09-07T18:51:25.199892Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000353  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807085;
+SELECT DATABASE();
+# Time: 2026-09-07T18:51:25.200357Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000136  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807085;
+# administrator command: Init DB;
+# Time: 2026-09-07T18:51:25.200831Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000442  Lock_time: 0.000006 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1788807085;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2026-09-07T18:51:26.474074Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000276  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807086;
+SELECT DATABASE();
+# Time: 2026-09-07T18:51:26.474473Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000094  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807086;
+# administrator command: Init DB;
+# Time: 2026-09-07T18:51:26.475838Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000543  Lock_time: 0.000007 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1788807086;
+select * from Products1 where Name = "AwersomeProduct42";
+# Time: 2026-09-07T18:52:06.897450Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000361  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807126;
+SELECT DATABASE();
+# Time: 2026-09-07T18:52:06.897740Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000093  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807126;
+# administrator command: Init DB;
+# Time: 2026-09-07T18:52:06.898349Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000520  Lock_time: 0.000010 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1788807126;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-09-07T18:52:12.245552Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.001157  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807132;
+SELECT DATABASE();
+# Time: 2026-09-07T18:52:12.249909Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000163  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807132;
+# administrator command: Init DB;
+# Time: 2026-09-07T18:52:12.250638Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000542  Lock_time: 0.000009 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1788807132;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-09-07T18:52:14.565872Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000296  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807134;
+SELECT DATABASE();
+# Time: 2026-09-07T18:52:14.566721Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000668  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807134;
+# administrator command: Init DB;
+# Time: 2026-09-07T18:52:14.567508Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000739  Lock_time: 0.000008 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1788807134;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-09-07T18:52:16.045478Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000279  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807136;
+SELECT DATABASE();
+# Time: 2026-09-07T18:52:16.045800Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000138  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807136;
+# administrator command: Init DB;
+# Time: 2026-09-07T18:52:16.047088Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000528  Lock_time: 0.000009 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1788807136;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-09-07T18:52:17.415480Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000269  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807137;
+SELECT DATABASE();
+# Time: 2026-09-07T18:52:17.418057Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000109  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807137;
+# administrator command: Init DB;
+# Time: 2026-09-07T18:52:17.418777Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000562  Lock_time: 0.000009 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1788807137;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-09-07T18:52:18.765895Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000310  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807138;
+SELECT DATABASE();
+# Time: 2026-09-07T18:52:18.767127Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.001104  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807138;
+# administrator command: Init DB;
+# Time: 2026-09-07T18:52:18.767727Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000528  Lock_time: 0.000009 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1788807138;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-09-07T18:52:19.934825Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000345  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807139;
+SELECT DATABASE();
+# Time: 2026-09-07T18:52:19.935080Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000080  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807139;
+# administrator command: Init DB;
+# Time: 2026-09-07T18:52:19.935604Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000444  Lock_time: 0.000008 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1788807139;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-09-07T18:52:21.149627Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000309  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807141;
+SELECT DATABASE();
+# Time: 2026-09-07T18:52:21.150968Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.001214  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807141;
+# administrator command: Init DB;
+# Time: 2026-09-07T18:52:21.152074Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.001039  Lock_time: 0.000009 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1788807141;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-09-07T18:52:22.883066Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000373  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807142;
+SELECT DATABASE();
+# Time: 2026-09-07T18:52:22.885996Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000143  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807142;
+# administrator command: Init DB;
+# Time: 2026-09-07T18:52:22.887380Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000518  Lock_time: 0.000007 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1788807142;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-09-07T18:52:24.165388Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000456  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807144;
+SELECT DATABASE();
+# Time: 2026-09-07T18:52:24.166998Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000162  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807144;
+# administrator command: Init DB;
+# Time: 2026-09-07T18:52:24.167646Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000601  Lock_time: 0.000008 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1788807144;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-09-07T18:52:25.257116Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000280  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807145;
+SELECT DATABASE();
+# Time: 2026-09-07T18:52:25.257481Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000141  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807145;
+# administrator command: Init DB;
+# Time: 2026-09-07T18:52:25.258069Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000558  Lock_time: 0.000008 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1788807145;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-09-07T18:52:26.222288Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000322  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807146;
+SELECT DATABASE();
+# Time: 2026-09-07T18:52:26.223076Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000655  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1788807146;
+# administrator command: Init DB;
+# Time: 2026-09-07T18:52:26.223699Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000562  Lock_time: 0.000007 Rows_sent: 1  Rows_examined: 60
+SET timestamp=1788807146;
+select * from Products2 where Name = "AwersomeProduct42";
+# Time: 2026-09-07T18:52:32.498107Z
+# User@Host: mysqluser[mysqluser] @ localhost []  Id:    12
+# Query_time: 0.000024  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 60
+SET timestamp=1788807152;
+# administrator command: Quit;
+# Time: 2026-09-07T18:52:38.846097Z
+# User@Host: mysqluser[mysqluser] @  [192.168.0.147]  Id:    10
+# Query_time: 0.000022  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 2
+SET timestamp=1788807158;
+# administrator command: Quit;
+# Time: 2026-09-07T18:52:38.846432Z
+# User@Host: mysqluser[mysqluser] @  [192.168.0.147]  Id:    11
+# Query_time: 0.000010  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 11
+SET timestamp=1788807158;
+# administrator command: Quit;
