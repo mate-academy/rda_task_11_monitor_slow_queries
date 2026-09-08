@@ -14,7 +14,11 @@ CREATE TABLE Products2 (
     ID INT AUTO_INCREMENT,
     Name VARCHAR(50),
     PRIMARY KEY (ID)
-) ENGINE=MyISAM;
+) ENGINE=InnoDB;
+
+CREATE INDEX index_name1 ON Products1 (Name);
+CREATE INDEX index_name2 ON Products2 (Name);
+
 
 -- Create test data in Products1 table 
 INSERT INTO Products1 (Name)
