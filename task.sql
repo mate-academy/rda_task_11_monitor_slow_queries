@@ -10,12 +10,12 @@ CREATE TABLE Products1 (
     PRIMARY KEY (ID)
 ) ENGINE=InnoDB;
 
-CREATE TABLE Products2 (
+/* CREATE TABLE Products2 (
     ID INT AUTO_INCREMENT,
     Name VARCHAR(50),
     PRIMARY KEY (ID)
 ) ENGINE=MyISAM;
-
+ */
 -- Create test data in Products1 table 
 INSERT INTO Products1 (Name)
 	VALUES ('AwersomeProduct1'); 
@@ -140,7 +140,7 @@ INSERT INTO Products1 (Name)
 
 
 -- Create test data in Products2 table
-INSERT INTO Products2 (Name)
+/* INSERT INTO Products2 (Name)
 	VALUES ('AwersomeProduct1'); 
 INSERT INTO Products2 (Name)
 	VALUES ('AwersomeProduct2'); 
@@ -260,3 +260,4 @@ INSERT INTO Products2 (Name)
 	VALUES ('AwersomeProduct59'); 
 INSERT INTO Products2 (Name)
 	VALUES ('AwersomeProduct60'); 
+ */
