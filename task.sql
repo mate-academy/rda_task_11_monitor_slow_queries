@@ -2,6 +2,12 @@ create database ShopDB;
 
 use ShopDB; 
 
+-- Slow query log benchmark (10 executions per query):
+-- Products1 (InnoDB): average 0.012443 s, median 0.011806 s.
+-- Products2 (MyISAM): average 0.020912 s, median 0.021257 s.
+-- Products2 was about 68% slower, so its table definition and test data
+-- were removed after the comparison, as required by the task.
+
 -- Create tables 
 
 CREATE TABLE Products1 (
