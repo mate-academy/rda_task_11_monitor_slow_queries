@@ -1,0 +1,8 @@
+I already did all steps:
+Run the required queries against Products2
+Analyze the slow query log to determine which engine performs slower
+
+I figured out that Products2 (MyISAM) work slower than Products1 (InnoDB)
+Final 6th task says:
+Edit the task.sql file: remove the code for the table creation and data creation, which is used by the "slow" query. Submit your solution for a review.
+So I removed the code for the table creation and data creation of Products2 (MyISAM) as required. What is wrong?
